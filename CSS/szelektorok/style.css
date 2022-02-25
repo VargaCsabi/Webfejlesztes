@@ -15,6 +15,40 @@ div {
     border: 1px solid black
 }
 
-p:first-of-type {
-    color: green;
+body>p:first-of-type {
+    color: yellow;
+/* közvetlen gyerek */
 }
+body>p {
+    background-color: blueviolet;
+}
+/* a li vel a lista elmeket szinezzük csak */
+li.piroskak+li {
+    background-color: gold;
+}
+    li.piroskak {
+        border-right: 5px solid brown ;
+    }
+
+    p:first-child {
+        font-size: 30px:
+    }
+
+    ol li:nth-child(4) {
+        font-family: 'Courier New';
+    }
+/* 2n a páros n a páratlan a 3n az minde harmadik */
+    tr:nth-child(2n) td {
+        background-color: indianred;
+    }
+
+    td:nth-child(2n+1) {
+        background-color: khaki;
+    }
+ [title] {
+     font-style: italic;
+ }
+  [title = "masodik"]{
+    font-weight: bold;
+  }
+ 
