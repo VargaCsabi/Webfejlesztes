@@ -1,54 +1,59 @@
-/*
- * {
-    background-color: cornflowerblue;
-} */
+/* 
+* {
+    background-color: red;
+} 
+*/
 
 #p2 {
-    color: darkblue;
+    color: blue;
 }
-.piroskak {
+
+.vorosek {
     color: red;
-    font-size: 20px
+    font-size: 20px;
 }
 
 div {
-    border: 1px solid black
+    border: 1px solid black;
 }
 
 body>p:first-of-type {
     color: yellow;
-/* közvetlen gyerek */
 }
+
+/* közvetlen gyerek */
 body>p {
     background-color: blueviolet;
 }
-/* a li vel a lista elmeket szinezzük csak */
-li.piroskak+li {
+
+li.vorosek+li {
     background-color: gold;
 }
-    li.piroskak {
-        border-right: 5px solid brown ;
-    }
 
-    p:first-child {
-        font-size: 30px:
-    }
+li.vorosek~li {
+    border-right: 5px solid brown;
+}
 
-    ol li:nth-child(4) {
-        font-family: 'Courier New';
-    }
-/* 2n a páros n a páratlan a 3n az minde harmadik */
-    tr:nth-child(2n) td {
-        background-color: indianred;
-    }
+p:first-child {
+    font-size: 30px;
+}
 
-    td:nth-child(2n+1) {
-        background-color: khaki;
-    }
- [title] {
-     font-style: italic;
- }
-  [title = "masodik"]{
+ol li:nth-child(4) {
+    font-family: 'Courier New';
+}
+
+tr:nth-child(3n+1) td {
+    background-color: indianred;
+}
+
+td:nth-child(2n+1) {
+    background-color: khaki;
+}
+
+[title] {
+    font-style: italic;
+}
+
+[title = "masodik"] {
     font-weight: bold;
-  }
- 
+}
