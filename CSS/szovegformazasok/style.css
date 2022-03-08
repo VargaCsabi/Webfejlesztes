@@ -74,5 +74,18 @@ a:hover {
     background-color: rgba(158, 56, 78, 40%);
 }
 #p17 {
-    background-color: #b8860b;
+    background-color: #b8860b80;
+}
+#p18 {
+    background-color: rgb(184, 134, 11);
+    color: rgb(100, 100, 100);
+    font-size: 150%;
+    letter-spacing: 3px;
+}
+/* árnyalat telítettség fényerő */
+#p19 {
+    background-color: hsl(120, 50%, 50%);
+}
+#p20 span {
+    color: red;
 }
