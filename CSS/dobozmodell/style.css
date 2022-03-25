@@ -1,7 +1,8 @@
 #piros {
     background-color: red;
 }
-span{
+
+span {
     background-color: yellow;
     display: block;
 }
@@ -16,13 +17,15 @@ a:first-of-type {
     background-color: orange;
     width: 40%;
     height: 100px;
-    padding: 20px;
+    padding: 40px;
     border: 5px solid black;
     margin: 20px;
 }
+
 .doboz {
     border: 1px solid black;
 }
+
 #div1 {
     margin: 10px;
 }
@@ -35,7 +38,7 @@ a:first-of-type {
 }
 
 #div3 {
-    margin: 25px 50px 75px 100px 
+    margin: 25px 50px 75px 100px;
 }
 
 #div4 {
@@ -50,9 +53,10 @@ a:first-of-type {
     width: 80%;
     margin: 10px 10%;
 }
+
 #div7 {
-    width: 400%;
-    margin: 10px calc(100%-400px)/2);
+    width: 400px;
+    margin: 10px calc((100% - 400px)/2);
 }
 
 #div8 {
@@ -61,9 +65,9 @@ a:first-of-type {
 }
 
 #div9 {
-    --w: 400px;
-    width: var(--w);
-    margin: 10px calc((100%- var(--w))/2);
+    --maci: 400px;
+    width: var(--maci);
+    margin: 10px calc((100% - var(--maci))/2);
 }
 
 .utso~div {
@@ -74,8 +78,8 @@ a:first-of-type {
 
 #div10 {
     border-style: dotted;
-    border-width:2px ;
-    border-color: red;
+    border-width: 2px;
+    border-color: hotpink;
 }
 
 #div11 {
@@ -86,9 +90,10 @@ a:first-of-type {
 #div12 {
     border-top: 1px dotted blue;
     border-right: 2px solid red;
-    border-bottom: 5px dashed rgb(200, 200, 0);
+    border-bottom: 5px dashed #F0F7A2;
     border-left: none;
 }
+
 #div13 {
     box-shadow: 10px 5px 3px green;
 }
@@ -104,13 +109,10 @@ a:first-of-type {
     border: 10px solid purple;
     box-sizing: border-box;
 }
+
 #div25 {
-    background-color: blue;
+    background-color: chartreuse;
     width: 100%;
     border: 10px solid red;
     box-sizing: border-box;
 }
-
-
-
-
