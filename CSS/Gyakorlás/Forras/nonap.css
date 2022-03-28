@@ -19,6 +19,7 @@ table, td, th {
     border: 1px solid black;
     border-collapse: collapse;
 }
+
 html {
     background-color: rgba(200, 0, 0, 10%);
 }
@@ -32,6 +33,5 @@ h1 {
     font-size: 4rem;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
-    text-shadow: 2px 1px 2px black ;
+    text-shadow: 2px 1px 2px black;
 }
-
