@@ -13,4 +13,9 @@ button {
     }
     .container {
         background-color: blue;
+        color: white;
+    }
+
+    .container-fluid {
+        background-color: violet;
     }
